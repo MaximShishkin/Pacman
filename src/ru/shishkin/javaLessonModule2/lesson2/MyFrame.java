@@ -1,4 +1,4 @@
-package Lesson2;
+package ru.shishkin.javaLessonModule2.lesson2;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -8,31 +8,31 @@ import java.awt.event.ActionListener;
 import java.io.IOException;
 
 public class MyFrame extends JFrame {
-	// конструктор класса
+	// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 	public MyFrame () {
 		
-	    // название окна 
-		// setTitle("Окошечко");
+	    // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ 
+		// setTitle("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
 		
-		// координаты для отрисовки
+		// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 		setLocation(0,0);
 		
-		// разместить поверх других окон
+		// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
 		setAlwaysOnTop(true);
 		
-		// устанавливаем кнопки слева направо автоматически
+		// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 		setLayout(new FlowLayout());
 		
-		// убрать рамку окна
+		// пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
 		setUndecorated(true);
 		
-		// добавим кнопку
+		// пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 		JButton button = new JButton();
 		button.setName("button");
-		button.setText("Хром");
+		button.setText("пїЅпїЅпїЅпїЅ");
 		button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				// открываем гугл хром
+				// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
 				ProcessBuilder process = new ProcessBuilder("C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe","http:\\club.1c.ru");
 				try {
 					process.start();
@@ -44,13 +44,13 @@ public class MyFrame extends JFrame {
 		});
 		add(button);
 		
-		// добавим кнопку
+		// пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 		JButton button1 = new JButton();
 		button1.setName("button1");
-		button1.setText("Калькулятор");
+		button1.setText("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
 		button1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				// открываем калькулятор
+				// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 				ProcessBuilder process = new ProcessBuilder("calc");
 				try {
 					process.start();
@@ -62,13 +62,13 @@ public class MyFrame extends JFrame {
 		});		
 		add(button1);
 		
-		// добавим кнопку
+		// пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 		JButton button2 = new JButton();
 		button2.setName("button1");
-		button2.setText("Блокнот");
+		button2.setText("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
 		button2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				// открываем блокнот
+				// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 				ProcessBuilder process = new ProcessBuilder("notepad");
 				try {
 					process.start();
@@ -80,25 +80,25 @@ public class MyFrame extends JFrame {
 			});		
 		add(button2);
 		
-		// добавим кнопку
+		// пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 		JButton button3 = new JButton();
 		button3.setName("button1");
-		button3.setText("Закрыть");
+		button3.setText("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ");
 		button3.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
-				// закрываем программу
+				// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 				System.exit(0);
 			}	
 		});		
 		add(button3);
 		
-		// устанавливаем размеры окна автоматически
+		// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 		pack();
 		
-		// завершение работы приложения при закрытии окна
+		// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
-		// делать видимым окно
+		// пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
 		setVisible(true);
 	}
 }

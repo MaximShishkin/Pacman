@@ -1,4 +1,4 @@
-package Lesson3;
+package ru.shishkin.javaLessonModule2.lesson3;
 
 import javax.swing.JFrame;
 import javax.swing.JTextArea;

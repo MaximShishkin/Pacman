@@ -1,4 +1,4 @@
-package lesson6;
+package ru.shishkin.javaLessonModule2.lesson6;
 
 import java.awt.Color;
 import java.awt.Cursor;

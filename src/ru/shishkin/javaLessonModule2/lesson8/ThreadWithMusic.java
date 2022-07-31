@@ -1,4 +1,4 @@
-package Lesson8;
+package ru.shishkin.javaLessonModule2.lesson8;
 
 import java.io.FileInputStream;
 import java.io.IOException;

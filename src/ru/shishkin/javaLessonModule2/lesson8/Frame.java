@@ -1,4 +1,4 @@
-package Lesson8;
+package ru.shishkin.javaLessonModule2.lesson8;
 
 import java.awt.Font;
 import java.awt.event.ActionEvent;

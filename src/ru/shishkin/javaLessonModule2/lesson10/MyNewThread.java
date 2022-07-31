@@ -1,4 +1,4 @@
-package Lesson10;
+package ru.shishkin.javaLessonModule2.lesson10;
 
 public class MyNewThread extends Thread {
 	String name;
