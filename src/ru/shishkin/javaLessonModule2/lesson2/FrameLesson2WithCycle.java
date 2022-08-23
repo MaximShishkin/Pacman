@@ -7,9 +7,9 @@ import java.io.IOException;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 
-public class MyFrameWithCycle extends JFrame {
+public class FrameLesson2WithCycle extends JFrame {
 	// ����������� ������
-		public MyFrameWithCycle () {
+		public FrameLesson2WithCycle() {
 			
 		    // �������� ���� 
 			// setTitle("��������");

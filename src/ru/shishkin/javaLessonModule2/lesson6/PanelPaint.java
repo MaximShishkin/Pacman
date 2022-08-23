@@ -8,7 +8,7 @@ import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
 import javax.swing.JPanel;
 
-public class Panel extends JPanel {
+public class PanelPaint extends JPanel {
 	// массив из цветов
 	private Color [] masColor;
 	// координаты мыши
@@ -19,7 +19,7 @@ public class Panel extends JPanel {
 	private int countColor = 0;
 	
 	// конструктор класса
-	Panel() {
+	PanelPaint() {
 		addMouseListener(new MyMouse1());
 		addMouseMotionListener(new MyMouse2());
 		

@@ -7,9 +7,9 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.IOException;
 
-public class MyFrame extends JFrame {
+public class FrameLesson2 extends JFrame {
 	// ����������� ������
-	public MyFrame () {
+	public FrameLesson2() {
 		
 	    // �������� ���� 
 		// setTitle("��������");

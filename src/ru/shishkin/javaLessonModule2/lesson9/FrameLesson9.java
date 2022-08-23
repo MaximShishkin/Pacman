@@ -1,4 +1,4 @@
-package ru.shishkin.javaLessonModule2.lesson8;
+package ru.shishkin.javaLessonModule2.lesson9;
 
 import java.awt.Font;
 import java.awt.event.ActionEvent;
@@ -21,9 +21,9 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
-public class Frame extends JFrame {
+public class FrameLesson9 extends JFrame {
 	// конструктор класса
-	Frame() {
+	FrameLesson9() {
 		// произвольое размещение элементов в окне
 		setLayout(null);
 		

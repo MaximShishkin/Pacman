@@ -2,14 +2,14 @@ package ru.shishkin.javaLessonModule2.lesson6;
 
 import javax.swing.JFrame;
 
-public class Frame extends JFrame{
+public class FramePaint extends JFrame{
 	// конструктор класса
-	Frame() {
+	FramePaint() {
 		// настройки окна
 		setBounds(10, 10, 1315, 700);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		setResizable(false);
-		add(new Panel());
+		add(new PanelPaint());
 		setVisible(true);
 	}
 }

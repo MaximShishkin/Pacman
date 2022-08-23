@@ -1,9 +1,9 @@
-package ru.shishkin.javaLessonModule2.lesson10;
+package ru.shishkin.javaLessonModule2.lesson8;
 
-public class MyNewThread extends Thread {
+public class NewThreadLesson8 extends Thread {
 	String name;
 	
-	MyNewThread(String name) {
+	NewThreadLesson8(String name) {
 		this.name = name;
 		start();
 	}

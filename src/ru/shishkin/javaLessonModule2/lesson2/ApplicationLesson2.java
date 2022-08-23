@@ -1,11 +1,11 @@
 package ru.shishkin.javaLessonModule2.lesson2;
 
-public class MyApplication {
+public class ApplicationLesson2 {
 
 	public static void main(String[] args) {
 		// �������� ����
 		// new MyFrame();
 		// ������� ����, ���� � ������ ����������� � ������� � ������, ��
-		new MyFrameWithCycle();
+		new FrameLesson2WithCycle();
 	}
 }

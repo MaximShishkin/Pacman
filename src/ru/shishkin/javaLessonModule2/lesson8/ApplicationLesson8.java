@@ -1,12 +1,12 @@
-package ru.shishkin.javaLessonModule2.lesson10;
+package ru.shishkin.javaLessonModule2.lesson8;
 
-public class Start {
+public class ApplicationLesson8 {
 
 	public static void main(String[] args) {
-		new MyNewThread("2");
-		new MyNewThread("3");
-		new MyNewThread("4");
-		new MyNewThread("5");
+		new NewThreadLesson8("2");
+		new NewThreadLesson8("3");
+		new NewThreadLesson8("4");
+		new NewThreadLesson8("5");
 		
 		for(int i = 0; i<100; i++) {
 			System.out.println("Работа 1 потока = " + i);

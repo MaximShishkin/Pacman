@@ -12,7 +12,7 @@ import java.io.IOException;
 import javax.imageio.ImageIO;
 import javax.swing.JButton;
 
-public class MyCalculator extends JFrame {
+public class FrameCalculator extends JFrame {
 
 	private JButton [] button = new JButton [20];
 	
@@ -25,7 +25,7 @@ public class MyCalculator extends JFrame {
 	
 	private int operation;
 	
-	MyCalculator() {
+	FrameCalculator() {
 		
 		Font buttonFont = new Font("arial", 2, 30);
 		
@@ -82,7 +82,7 @@ public class MyCalculator extends JFrame {
 		Image icon = null;
 		
 		try {
-			icon = ImageIO.read(MyCalculator.class.getResource("icon.png"));
+			icon = ImageIO.read(FrameCalculator.class.getResource("icon.png"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

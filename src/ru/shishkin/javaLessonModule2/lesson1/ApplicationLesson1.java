@@ -1,6 +1,6 @@
 package ru.shishkin.javaLessonModule2.lesson1;
 
-public class MyClass {
+public class ApplicationLesson1 {
 
 	public static void main(String[] args) {
 		// ������ ������ ������ Test
