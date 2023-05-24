@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="JavaLessonModule2" />
+        <module name="Pacman" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="JavaLessonModule2" target="15" />
+      <module name="Pacman" target="15" />
       <module name="VirusSpy" target="15" />
     </bytecodeTargetLevel>
   </component>
