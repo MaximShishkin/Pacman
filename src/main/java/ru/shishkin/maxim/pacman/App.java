@@ -1,14 +1,14 @@
-package ru.shishkin.pacman;
+package ru.shishkin.maxim.pacman;
 
 import javax.swing.JFrame;
 
-public class Application extends JFrame {
-    public Application() {
+public class App extends JFrame {
+    public App() {
         add(new Pacman());
     }
 
     public static void main(String[] args) {
-        Application pac = new Application();
+        App pac = new App();
         pac.setVisible(true);
         pac.setTitle("Pacman");
         pac.setSize(380, 420);

@@ -1,4 +1,4 @@
-package ru.shishkin.pacman;
+package ru.shishkin.maxim.pacman;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
